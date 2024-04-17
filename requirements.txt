@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+oxenai
+einops
+aim
+datasets
+wheel
+flash_attn

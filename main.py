@@ -902,13 +902,13 @@ def main():
     run = Run()
 
     run["hparams"] = {
-        "learning_rate": 3e-4,
+        "learning_rate": 1e-4,
         # "learning_rate": 3e-3,
         "n_epochs": 1_000_000,
-        "hidden_size": 1024,
-        "cond_dim": 256,
-        "n_heads": 32,
-        "n_blocks": 16,
+        "hidden_size": 768,
+        "cond_dim": 128,
+        "n_heads": 8,
+        "n_blocks": 8,
         "dropout": 0.1,
         # "context_length": 128,
         "context_length": 64,
